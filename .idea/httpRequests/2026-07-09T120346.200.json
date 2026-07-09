@@ -1,0 +1,104 @@
+[
+  {
+    "department": "MECH",
+    "email": "david@gmail.com",
+    "id": 12,
+    "name": "David"
+  },
+  {
+    "department": "CIVIL",
+    "email": "emma@gmail.com",
+    "id": 13,
+    "name": "Emma"
+  },
+  {
+    "department": "EEE",
+    "email": "frank@gmail.com",
+    "id": 14,
+    "name": "Frank"
+  },
+  {
+    "department": "CSE",
+    "email": "grace@gmail.com",
+    "id": 15,
+    "name": "Grace"
+  },
+  {
+    "department": "ECE",
+    "email": "henry@gmail.com",
+    "id": 16,
+    "name": "Henry"
+  },
+  {
+    "department": "IT",
+    "email": "isabella@gmail.com",
+    "id": 17,
+    "name": "Isabella"
+  },
+  {
+    "department": "MECH",
+    "email": "jack@gmail.com",
+    "id": 18,
+    "name": "Jack"
+  },
+  {
+    "department": "CIVIL",
+    "email": "karen@gmail.com",
+    "id": 19,
+    "name": "Karen"
+  },
+  {
+    "department": "EEE",
+    "email": "liam@gmail.com",
+    "id": 20,
+    "name": "Liam"
+  },
+  {
+    "department": "CSE",
+    "email": "mia@gmail.com",
+    "id": 21,
+    "name": "Mia"
+  },
+  {
+    "department": "ECE",
+    "email": "noah@gmail.com",
+    "id": 22,
+    "name": "Noah"
+  },
+  {
+    "department": "IT",
+    "email": "olivia@gmail.com",
+    "id": 23,
+    "name": "Olivia"
+  },
+  {
+    "department": "MECH",
+    "email": "peter@gmail.com",
+    "id": 24,
+    "name": "Peter"
+  },
+  {
+    "department": "CIVIL",
+    "email": "quinn@gmail.com",
+    "id": 25,
+    "name": "Quinn"
+  },
+  {
+    "department": "EEE",
+    "email": "ryan@gmail.com",
+    "id": 26,
+    "name": "Ryan"
+  },
+  {
+    "department": "CSE",
+    "email": "sophia@gmail.com",
+    "id": 27,
+    "name": "Sophia"
+  },
+  {
+    "department": "ECE",
+    "email": "thomas@gmail.com",
+    "id": 28,
+    "name": "Thomas"
+  }
+]

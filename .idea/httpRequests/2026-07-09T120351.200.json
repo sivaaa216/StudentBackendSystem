@@ -1,0 +1,20 @@
+[
+  {
+    "department": "CSE",
+    "email": "john@gmail.com",
+    "id": 29,
+    "name": "John"
+  },
+  {
+    "department": "ECE",
+    "email": "alice@gmail.com",
+    "id": 30,
+    "name": "Alice"
+  },
+  {
+    "department": "IT",
+    "email": "bob@gmail.com",
+    "id": 31,
+    "name": "Bob"
+  }
+]

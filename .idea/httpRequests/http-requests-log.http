@@ -1,0 +1,379 @@
+POST http://localhost:8080/insertJson
+Content-Type: multipart/form-data; boundary=Boundary
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2026.1.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 455
+
+--Boundary
+Content-Disposition: form-data; name="file"; filename="students.json"
+Content-Type: text/csv/json
+
+< /home/nms-training/Downloads/backend/src/students.json
+--Boundary--
+
+<> 2026-07-09T120351.200.json
+
+###
+
+POST http://localhost:8080/InsertDataFromFile
+Content-Type: multipart/form-data; boundary=Boundary
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2026.1.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 664
+
+--Boundary
+Content-Disposition: form-data; name="file"; filename="students.csv"
+Content-Type: text/csv
+
+< /home/nms-training/Downloads/backend/src/students.csv
+--Boundary--
+
+<> 2026-07-09T120346.200.json
+
+###
+
+POST http://localhost:8080/insertJson
+Content-Type: multipart/form-data; boundary=Boundary
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2026.1.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 455
+
+--Boundary
+Content-Disposition: form-data; name="file"; filename="students.json"
+Content-Type: text/csv/json
+
+< /home/nms-training/Downloads/backend/src/students.json
+--Boundary--
+
+<> 2026-07-09T120308.200.json
+
+###
+
+POST http://localhost:8080/insert
+Content-Type: application/json
+Content-Length: 165
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2026.1.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+[
+  {
+    "name": "A",
+    "department": "CSE",
+    "email": "john@gmail.com"
+  },
+  {
+    "name": "B",
+    "department": "ECE",
+    "email": "alice@gmail.com"
+  }
+]
+
+<> 2026-07-09T120124.404.json
+
+###
+
+GET http://localhost:8080/getStudent/3
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2026.1.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2026-07-09T111046.200.json
+
+###
+
+DELETE http://localhost:8080/deleteData/3
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2026.1.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+###
+
+GET http://localhost:8080/getAll
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2026.1.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2026-07-09T111013.200.json
+
+###
+
+POST http://localhost:8080/insertData
+Content-Type: application/json
+Content-Length: 65
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2026.1.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "llll",
+  "department": "it",
+  "email": "llllllll"
+}
+
+<> 2026-07-09T110951.200.json
+
+###
+
+GET http://localhost:8080/getAll
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2026.1.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2026-07-09T095814.200.json
+
+###
+
+POST http://localhost:8080/InsertDataFromFile
+Content-Type: multipart/form-data; boundary=Boundary
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2026.1.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 287
+
+--Boundary
+Content-Disposition: form-data; name="file"; filename="students.csv"
+Content-Type: text/csv
+
+< /home/nms-training/Downloads/backend/src/students.csv
+--Boundary--
+
+<> 2026-07-09T095803.200.json
+
+###
+
+GET http://localhost:8080/getStudent/4
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2026.1.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2026-07-09T094111.200.json
+
+###
+
+DELETE http://localhost:8080/deleteData/4
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2026.1.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+###
+
+GET http://localhost:8080/getStudent/4
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2026.1.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2026-07-09T094101.200.json
+
+###
+
+GET http://localhost:8080/getStudent/4
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2026.1.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2026-07-09T094052.200.json
+
+###
+
+GET http://localhost:8080/getAll
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2026.1.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2026-07-09T094041.200.json
+
+###
+
+POST http://localhost:8080/insertData
+Content-Type: application/json
+Content-Length: 43
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2026.1.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Kumar",
+  "department": "it"
+}
+
+<> 2026-07-09T094033.200.json
+
+###
+
+GET http://localhost:8080/getAll
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2026.1.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2026-07-09T094007.200.json
+
+###
+
+GET http://localhost:8080/findByName/Sivakumar
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2026.1.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2026-07-08T174124.200.json
+
+###
+
+POST http://localhost:8080/insertData
+Content-Type: application/json
+Content-Length: 48
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2026.1.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "SivaKumar",
+  "department": "CSE"
+}
+
+<> 2026-07-08T174111.200.json
+
+###
+
+GET http://localhost:8080/findByName/Sivakumar
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2026.1.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+###
+
+DELETE http://localhost:8080/deleteData/2
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2026.1.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+###
+
+GET http://localhost:8080/getStudent/2
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2026.1.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2026-07-08T171759.200.json
+
+###
+
+GET http://localhost:8080/getAll
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2026.1.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2026-07-08T171737.200.json
+
+###
+
+POST http://localhost:8080/insertData
+Content-Type: application/json
+Content-Length: 48
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2026.1.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "SivaKumar",
+  "department": "CSE"
+}
+
+<> 2026-07-08T171726.200.json
+
+###
+
+GET http://localhost:8080/getAll
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2026.1.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2026-07-08T171634.200.json
+
+###
+
+GET http://localhost:8080/getStudent/1
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2026.1.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2026-07-08T171631.200.json
+
+###
+
+DELETE http://localhost:8080/deleteData/1
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2026.1.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+###
+
+GET http://localhost:8080/getStudent/1
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2026.1.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2026-07-08T171607.200.json
+
+###
+
+GET http://localhost:8080/getAll
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2026.1.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2026-07-08T171600.200.json
+
+###
+
+GET http://localhost:8080/getStudent/1
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2026.1.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2026-07-08T171546.200.json
+
+###
+
+POST http://localhost:8080/insertData
+Content-Type: application/json
+Content-Length: 48
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2026.1.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "SivaKumar",
+  "department": "CSE"
+}
+
+<> 2026-07-08T171537.200.json
+
+###
+
+POST http://localhost:8080/insertData
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2026.1.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2026-07-08T171506.400.json
+
+###
+
+GET http://localhost:8080/getAll
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2026.1.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2026-07-08T171435.200.json
+
+###
+
