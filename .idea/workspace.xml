@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9a1c84f-5ae2-4681-8599-e3aad27072b4" name="Changes" comment="Subject table Codes">
-      <change afterPath="$PROJECT_DIR$/src/api-test.http" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="e9a1c84f-5ae2-4681-8599-e3aad27072b4" name="Changes" comment="Migrate mysql to mariaDB">
+      <change afterPath="$PROJECT_DIR$/src/SubjectJsonData.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/backend/model/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/backend/model/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/backend/controller/SubjectController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/backend/controller/SubjectController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/backend/dto/SubjectDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/backend/dto/SubjectDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/backend/service/SubjectService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/backend/service/SubjectService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,12 +39,12 @@
     &quot;assignee&quot;: &quot;sivaaa216&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/sivaaa216/backend.git&quot;,
-    &quot;accountId&quot;: &quot;2f278e6b-a13f-43a0-bf75-5b7850a6b399&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/sivaaa216/StudentBackendSystem",
+    "accountId": "91951cba-77da-41fe-881e-aa83ae3c80a0"
   }
-}</component>
+}]]></component>
   <component name="HttpClientOnboardingState">{
   &quot;isOnboardingCommentShown&quot;: true
 }</component>
@@ -172,6 +170,15 @@
       <workItem from="1783569364756" duration="16695000" />
       <workItem from="1783655888611" duration="8641000" />
     </task>
+    <task id="LOCAL-00001" summary="Migrate mysql to mariaDB">
+      <option name="closed" value="true" />
+      <created>1783680033068</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1783680033068</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,6 +198,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Spring boot setup and Student Schema Handling" />
     <MESSAGE value="Subject table Codes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Subject table Codes" />
+    <MESSAGE value="Migrate mysql to mariaDB" />
+    <option name="LAST_COMMIT_MESSAGE" value="Migrate mysql to mariaDB" />
   </component>
 </project>

@@ -1,0 +1,52 @@
+[
+  {
+    "student_id": 2,
+    "sub_name": "Java Programming",
+    "mark": 85.5
+  },
+  {
+    "student_id": 2,
+    "sub_name": "Database Management System",
+    "mark": 90.0
+  },
+  {
+    "student_id": 2,
+    "sub_name": "Data Structures",
+    "mark": 88.5
+  },
+  {
+    "student_id": 3,
+    "sub_name": "Python Programming",
+    "mark": 92.0
+  },
+  {
+    "student_id": 3,
+    "sub_name": "Computer Networks",
+    "mark": 86.5
+  },
+  {
+    "student_id": 3,
+    "sub_name": "Operating Systems",
+    "mark": 89.0
+  },
+  {
+    "student_id": 3,
+    "sub_name": "Software Engineering",
+    "mark": 91.5
+  },
+  {
+    "student_id": 3,
+    "sub_name": "Artificial Intelligence",
+    "mark": 87.0
+  },
+  {
+    "student_id": 4,
+    "sub_name": "Web Development",
+    "mark": 93.5
+  },
+  {
+    "student_id": 4,
+    "sub_name": "Cloud Computing",
+    "mark": 89.5
+  }
+]
