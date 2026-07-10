@@ -1,6 +1,9 @@
 package com.example.backend.service;
 
+import com.example.backend.dto.StudentDTO;
+import com.example.backend.dto.SubjectDTO;
 import com.example.backend.model.Student;
+import com.example.backend.model.Subject;
 import com.example.backend.repository.StudentRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -22,12 +25,26 @@ public class StudentService {
     @Autowired
     StudentRepo studentRepo;
 
-    public Student saveData(Student student) {
-        return studentRepo.save(student);
+    public Student saveData(StudentDTO studentDTO) {
+        Student student = new Student();
+        student.setName(studentDTO.name);
+        student.setEmail(studentDTO.email);
+        student.setDepartment(studentDTO.department);
+        List<Subject> subjectList = new ArrayList<>();
+        for (SubjectDTO subjectDTO : studentDTO.subjectDTOs) {
+            Subject subject = new Subject();
+            subject.setSub_name(subjectDTO.sub_name);
+            subject.setMark(subjectDTO.mark);
+            subject.setStudent(student);
+            subjectList.add(subject);
+        }
+        student.setSubjects(subjectList);
+        studentRepo.save(student);
+        return student;
     }
 
-    public Optional<Student> getStudentById(int id) {
-        return studentRepo.findById(id);
+    public Student getStudentById(int id) {
+        return studentRepo.getById(id);
     }
 
     public List<Student> getAllStudents() {
@@ -84,4 +101,9 @@ public class StudentService {
         List<Student> students = readJsonFile(file);
         return studentRepo.saveAll(students);
     }
+
+    public void updateStudent(Student student) {
+        studentRepo.save(student);
+    }
+
 }

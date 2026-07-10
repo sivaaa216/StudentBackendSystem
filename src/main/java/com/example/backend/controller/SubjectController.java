@@ -1,0 +1,26 @@
+package com.example.backend.controller;
+
+import com.example.backend.dto.SubjectDTO;
+import com.example.backend.model.Subject;
+import com.example.backend.service.StudentService;
+import com.example.backend.service.SubjectService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
+
+@RestController
+public class SubjectController {
+
+    @Autowired
+    private SubjectService subjectService;
+    @Autowired
+    private StudentService studentService;
+
+    @PostMapping("addSubject/{id}")
+    public void addSubject(@RequestBody SubjectDTO subjectDTO, @PathVariable int id) {
+        subjectService.addSubject(subjectDTO, id);
+
+    }
+
+}

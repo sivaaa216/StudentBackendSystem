@@ -1,3 +1,167 @@
+POST http://localhost:8080/addSubject/1
+Content-Type: application/json
+Content-Length: 40
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2026.1.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "sub_name": "Social",
+  "mark": 90
+}
+
+###
+
+POST http://localhost:8080/addSubject/1
+Content-Type: application/json
+Content-Length: 41
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2026.1.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "sub_name": "Science",
+  "mark": 90
+}
+
+###
+
+POST http://localhost:8080/addSubject/1
+Content-Type: application/json
+Content-Length: 41
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2026.1.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "sub_name": "Science",
+  "mark": 90
+}
+
+###
+
+POST http://localhost:8080/addSubject/1
+Content-Type: application/json
+Content-Length: 39
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2026.1.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "sub_name": "Maths",
+  "mark": 97
+}
+
+###
+
+GET http://localhost:8080/getAll
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2026.1.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2026-07-10T110045.200.json
+
+###
+
+POST http://localhost:8080/insertData
+Content-Type: application/json
+Content-Length: 219
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2026.1.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Siva",
+  "department": "CSE",
+  "email": "siva@gmail.com",
+  "subjectDTOs": [
+    {
+      "sub_name" : "Tamil",
+      "mark" : 80.0
+    },
+    {
+      "sub_name" : "English",
+      "mark" : 70.0
+    }
+  ]
+}
+
+<> 2026-07-10T103410.200.json
+
+###
+
+POST http://localhost:8080/insertData
+Content-Type: application/json
+Content-Length: 216
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2026.1.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Siva",
+  "department": "CSE",
+  "email": "siva@gmail.com",
+  "subjects": [
+    {
+      "sub_name" : "Tamil",
+      "mark" : 80.0
+    },
+    {
+      "sub_name" : "English",
+      "mark" : 70.0
+    }
+  ]
+}
+
+<> 2026-07-10T103150.500.json
+
+###
+
+POST http://localhost:8080/insertData
+Content-Type: application/json
+Content-Length: 216
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2026.1.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Siva",
+  "department": "CSE",
+  "email": "siva@gmail.com",
+  "subjects": [
+    {
+      "sub_name" : "Tamil",
+      "mark" : 80.0
+    },
+    {
+      "sub_name" : "English",
+      "mark" : 70.0
+    }
+  ]
+}
+
+<> 2026-07-10T095233.200.json
+
+###
+
+POST http://localhost:8080/insertJson
+Content-Type: multipart/form-data; boundary=Boundary
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2026.1.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 455
+
+--Boundary
+Content-Disposition: form-data; name="file"; filename="students.json"
+Content-Type: text/csv/json
+
+< /home/nms-training/Downloads/backend/src/students.json
+--Boundary--
+
+<> 2026-07-09T122312.200.json
+
+###
+
 POST http://localhost:8080/insertJson
 Content-Type: multipart/form-data; boundary=Boundary
 User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2026.1.3

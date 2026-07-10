@@ -1,5 +1,6 @@
 package com.example.backend.controller;
 
+import com.example.backend.dto.StudentDTO;
 import com.example.backend.model.Student;
 import com.example.backend.service.StudentService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -21,13 +22,13 @@ public class StudentController {
     }
 
     @GetMapping("/getStudent/{id}")
-    public Optional<Student> getByStudentId(@PathVariable int id) {
+    public Student getByStudentId(@PathVariable int id) {
         return studentService.getStudentById(id);
     }
 
     @PostMapping("/insertData")
-    public Student createData(@RequestBody Student student) {
-        return studentService.saveData(student);
+    public Student createData(@RequestBody StudentDTO studentDTO) {
+        return studentService.saveData(studentDTO);
     }
 
     @DeleteMapping("/deleteData/{id}")
