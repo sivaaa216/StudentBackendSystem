@@ -1,8 +1,10 @@
 package com.example.backend.service;
 
+import com.example.backend.dto.StudentDTO;
 import com.example.backend.dto.SubjectDTO;
 import com.example.backend.model.Student;
 import com.example.backend.model.Subject;
+import com.example.backend.repository.StudentRepo;
 import com.example.backend.repository.SubjectRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -12,6 +14,7 @@ import tools.jackson.databind.ObjectMapper;
 
 import java.io.IOException;
 import java.util.List;
+import java.util.Optional;
 
 @Service
 public class SubjectService {
@@ -21,6 +24,9 @@ public class SubjectService {
 
     @Autowired
     private StudentService studentService;
+
+    @Autowired
+    private StudentRepo studentRepo;
 
     public void addSubject(SubjectDTO subjectDTO, int id) {
         Student student = studentService.getStudentById(id);
@@ -47,5 +53,18 @@ public class SubjectService {
         } catch (Exception e) {
             e.printStackTrace();
         }
+    }
+
+    public void removeSubject(int subId) {
+        Student student = subjectRepo.getReferenceById(subId).getStudent();
+        if (student == null)
+            return;
+        List<Subject> subjectList = student.getSubjects();
+        if (subjectList == null || subjectList.isEmpty())
+            return;
+        Subject subject = subjectRepo.findById(subId).orElse(null);
+        subjectList.remove(subject);
+        subjectRepo.deleteById(subId);
+        studentRepo.save(student);
     }
 }

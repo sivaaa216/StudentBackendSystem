@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9a1c84f-5ae2-4681-8599-e3aad27072b4" name="Changes" comment="Migrate mysql to mariaDB">
-      <change afterPath="$PROJECT_DIR$/src/SubjectJsonData.json" afterDir="false" />
+    <list default="true" id="e9a1c84f-5ae2-4681-8599-e3aad27072b4" name="Changes" comment="Reading and writing List of Subject Json datas from file">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/backend/controller/SubjectController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/backend/controller/SubjectController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/backend/dto/SubjectDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/backend/dto/SubjectDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/backend/model/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/backend/model/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/backend/service/SubjectService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/backend/service/SubjectService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,12 +38,16 @@
     &quot;assignee&quot;: &quot;sivaaa216&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/sivaaa216/StudentBackendSystem",
-    "accountId": "91951cba-77da-41fe-881e-aa83ae3c80a0"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/sivaaa216/StudentBackendSystem&quot;,
+    &quot;accountId&quot;: &quot;91951cba-77da-41fe-881e-aa83ae3c80a0&quot;
   }
-}]]></component>
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/SubjectJsonData.json" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/example/backend/service/SubjectService.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="HttpClientOnboardingState">{
   &quot;isOnboardingCommentShown&quot;: true
 }</component>
@@ -99,6 +102,7 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.customizations",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -178,7 +182,15 @@
       <option name="project" value="LOCAL" />
       <updated>1783680033068</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Reading and writing List of Subject Json datas from file">
+      <option name="closed" value="true" />
+      <created>1783683421239</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1783683421239</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,6 +211,11 @@
     <MESSAGE value="Initial Spring boot setup and Student Schema Handling" />
     <MESSAGE value="Subject table Codes" />
     <MESSAGE value="Migrate mysql to mariaDB" />
-    <option name="LAST_COMMIT_MESSAGE" value="Migrate mysql to mariaDB" />
+    <MESSAGE value="Reading and writing List of Subject Json datas from file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reading and writing List of Subject Json datas from file" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

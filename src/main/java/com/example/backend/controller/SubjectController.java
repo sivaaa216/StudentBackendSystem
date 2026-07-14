@@ -27,4 +27,10 @@ public class SubjectController {
     public void addSubjectFromFile(@RequestParam("file")MultipartFile file) {
         subjectService.addSubjectFromFile(file);
     }
+
+    @DeleteMapping("subject/delete/{id}")
+    public void deleteSubject(@PathVariable int id) {
+        subjectService.removeSubject(id);
+        System.out.println("Id deleted Sucessfully!!");
+    }
 }
